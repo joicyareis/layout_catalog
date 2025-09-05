@@ -4,6 +4,7 @@
   &__grid {
     display: grid;
     justify-content: center;
+    overflow: visible;
     grid-template-columns: repeat(1, $card-width);
     gap: $vertical-gap $horizontal-gap;
 
